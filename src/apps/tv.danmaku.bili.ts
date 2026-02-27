@@ -504,35 +504,6 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 19,
-      name: '功能类-自动点击查看原图',
-      rules: [
-        {
-          fastQuery: true,
-          activityIds: [
-            'com.bilibili.video.story.StoryVideoActivity', // 视频：竖屏模式1
-            'com.bilibili.video.story.StoryTransparentActivity', // 视频：竖屏模式2
-            'com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity', // 视频：详情页模式
-            'com.bilibili.ship.theseus.playlist.UnitedPlaylistActivity', // 视频：播放列表（稍后再看/收藏夹）
-            'com.bilibili.bplus.followinglist.page.browser.ui.LightBrowserActivityV2', // 动态：图片
-            'com.bilibili.lib.ui.ComposeActivity', // 动态：评论图片
-            'com.bilibili.column.ui.detail.image.ColumnImageViewerActivity', // 专栏图片
-          ],
-          matches: '[text^="查看原图"][visibleToUser=true]',
-          exampleUrls: 'https://e.gkd.li/c0ffc9cb-fac0-4b5c-9645-3674942b5c7d',
-          snapshotUrls: [
-            'https://i.gkd.li/i/23325552', // 视频：竖屏模式1
-            'https://i.gkd.li/i/23304237', // 视频：竖屏模式2
-            'https://i.gkd.li/i/23304245', // 视频：详情页模式
-            'https://i.gkd.li/i/23786065', // 视频：播放列表（稍后再看/收藏夹）
-            'https://i.gkd.li/i/23305280', // 动态：帖内图片
-            'https://i.gkd.li/i/23305281', // 动态：评论图片
-            'https://i.gkd.li/i/23305275', // 专栏图片
-          ],
-        },
-      ],
-    },
-    {
       key: 20,
       name: '评价提示',
       rules: [
